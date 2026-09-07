@@ -59,7 +59,7 @@
 }
 
 .social-card-wrapper .instagram,
-.social-card-wrapper .twitter,
+.social-card-wrapper .linkedin,
 .social-card-wrapper .github,
 .social-card-wrapper .whatsapp {
   transition: fill 0.2s ease-in-out;
@@ -68,8 +68,8 @@
 .social-card-wrapper .instagram {
   fill: #e1306c;
 }
-.social-card-wrapper .twitter {
-  fill: #1da1f2;
+.social-card-wrapper .linkedin {
+  fill: #0077b5;
 }
 .social-card-wrapper .github {
   fill: #333;
@@ -88,7 +88,7 @@
   background-color: #fd1d1d;
 }
 .social-card-wrapper .card2:hover {
-  background-color: #24a0ed;
+  background-color: #0077b5;
 }
 .social-card-wrapper .card3:hover {
   background-color: #f7b733;
