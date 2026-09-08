@@ -27,10 +27,17 @@
         </div>
     </nav>
 
-    <!-- Preview Picture 16:9 -->
+    <!-- Custom Banner: App Logo + Mockup -->
     <header class="max-w-6xl mx-auto px-6 mb-16">
-        <div class="w-full aspect-video bg-neutral-100 rounded-xl flex items-center justify-center overflow-hidden">
-            <span class="text-neutral-400 font-medium text-lg">Preview picture 16:9</span>
+        <div class="relative w-full h-[220px] md:h-[320px] bg-[#f2f2f7] rounded-xl overflow-hidden">
+            <!-- 1. Logo App (Kiri) -->
+            <div class="absolute left-[15%] md:left-[20%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[80px] h-[80px] md:w-[120px] md:h-[120px] rounded-[16px] md:rounded-[24px] bg-white shadow-sm overflow-hidden">
+                <img src="./assets/placeholder-logo.png" alt="App Logo" class="w-full h-full object-cover">
+            </div>
+            <!-- 2. Mockup App (Kanan) -->
+            <div class="absolute left-[70%] md:left-[65%] top-[55%] -translate-x-1/2 -translate-y-1/2 w-[280px] md:w-[500px] aspect-[1.2/1] overflow-hidden">
+                <img src="./assets/placeholder-mockup.png" alt="App Mockup" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            </div>
         </div>
     </header>
 
