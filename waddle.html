@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waddle - Abmi Sukma Edri</title>
+    <!-- Google Fonts: Lora & Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS (Compiled) -->
+    <link rel="stylesheet" href="./dist/output.css">
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+        .font-lora { font-family: 'Lora', serif; }
+    </style>
+</head>
+<body class="bg-[#fcfcfc] text-neutral-900 selection:bg-neutral-200">
+
+    <!-- Header Navigation -->
+    <nav class="max-w-6xl mx-auto px-6 py-10 flex justify-between items-center">
+        <a href="index.html" class="font-bold text-2xl tracking-tight text-neutral-900">abmise.</a>
+        <div class="flex gap-8 text-[15px] font-medium text-neutral-600">
+            <a href="index.html#about" class="hover:text-neutral-900 transition-colors">About</a>
+            <a href="index.html#experience" class="hover:text-neutral-900 transition-colors">Experience</a>
+            <a href="index.html#projects" class="hover:text-neutral-900 transition-colors">Projects</a>
+        </div>
+    </nav>
+
+    <!-- Custom Banner: App Logo + Mockup -->
+    <header class="max-w-6xl mx-auto px-6 mb-16">
+        <div class="relative w-full h-[220px] md:h-[320px] bg-[#f2f2f7] rounded-xl overflow-hidden">
+            <!-- 1. Logo App (Kiri) -->
+            <div class="absolute left-[15%] md:left-[20%] top-1/2 -translate-x-1/2 -translate-y-1/2 w-[80px] h-[80px] md:w-[120px] md:h-[120px] rounded-[16px] md:rounded-[24px] bg-white shadow-sm overflow-hidden">
+                <img src="./assets/placeholder-logo.png" alt="App Logo" class="w-full h-full object-cover">
+            </div>
+            <!-- 2. Mockup App (Kanan) -->
+            <div class="absolute left-[70%] md:left-[65%] top-[55%] -translate-x-1/2 -translate-y-1/2 w-[280px] md:w-[500px] aspect-[1.2/1] overflow-hidden">
+                <img src="./assets/placeholder-mockup.png" alt="App Mockup" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 pb-24">
+        
+        <!-- Left Sidebar Navigation -->
+        <aside class="col-span-1">
+            <nav class="sticky top-12 flex flex-col gap-4 text-[14px] text-neutral-400 font-medium">
+                <a href="#overview" class="text-neutral-900">Case Study Overview</a>
+                <a href="#role" class="hover:text-neutral-900 transition-colors">Role & Responsibilities</a>
+                <a href="#problem" class="hover:text-neutral-900 transition-colors">The Problem</a>
+                <a href="#research" class="hover:text-neutral-900 transition-colors">User Research</a>
+                <a href="#design" class="hover:text-neutral-900 transition-colors">Design Process</a>
+                <a href="#solution" class="hover:text-neutral-900 transition-colors">Final Solution</a>
+            </nav>
+        </aside>
+
+        <!-- Right Content Area -->
+        <article class="col-span-1 md:col-span-3">
+            
+            <section id="overview" class="mb-16">
+                <h2 class="font-lora text-[32px] font-medium mb-6 text-neutral-900">Waddle: Dummy Project Title</h2>
+                <p class="text-[16px] text-neutral-600 leading-relaxed mb-12">
+                    Provide a brief overview of the project. Explain what it is, who it is for, and the core problem it solves. This section sets the stage for the rest of the case study.
+                </p>
+
+                <!-- Metadata Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-[14px] text-neutral-400 font-medium mb-2 uppercase tracking-wider">Role</h4>
+                        <p class="text-[15px] text-neutral-800 font-medium leading-relaxed">UX Researcher<br>UI/UX Designer</p>
+                    </div>
+                    <div>
+                        <h4 class="text-[14px] text-neutral-400 font-medium mb-2 uppercase tracking-wider">Timeline</h4>
+                        <p class="text-[15px] text-neutral-800 font-medium leading-relaxed">Jan - Mar 2026<br><span class="text-neutral-500 font-normal">(3 months)</span></p>
+                    </div>
+                    <div>
+                        <h4 class="text-[14px] text-neutral-400 font-medium mb-2 uppercase tracking-wider">Tools Used</h4>
+                        <p class="text-[15px] text-neutral-800 font-medium leading-relaxed">Figma<br>Notion<br>Miro</p>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="border-neutral-100 mb-16">
+
+            <section id="role" class="mb-16">
+                <h2 class="font-lora text-[28px] font-medium mb-6 text-neutral-900">Sub Heading</h2>
+                <p class="text-[16px] text-neutral-600 leading-relaxed mb-6">
+                    Paragraph content explaining this stage in more detail. It could be a process story, findings from user research, or the reasoning behind specific design decisions.
+                </p>
+                <div class="w-full bg-neutral-100 rounded-lg p-8 flex items-center justify-center aspect-[21/9] mb-6">
+                    <span class="text-neutral-400 text-sm">Supporting image</span>
+                </div>
+                <ul class="list-disc list-inside text-[16px] text-neutral-600 leading-relaxed space-y-2">
+                    <li>First key point from this process.</li>
+                    <li>Second key point with interesting insights.</li>
+                    <li>Final result of this stage.</li>
+                </ul>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="max-w-6xl mx-auto px-6 py-10 text-center border-t border-neutral-100">
+        <p class="text-[14px] text-neutral-400">
+            Made with empathy &copy; 2026 Abmi Sukma Edri
+        </p>
+    </footer>
+
+</body>
+</html>
